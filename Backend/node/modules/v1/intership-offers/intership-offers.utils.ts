@@ -1,0 +1,41 @@
+import {IntershipOffersInterface} from "../types/intership-offers.interface";
+
+export const intershipOfferMock4: IntershipOffersInterface[] = [
+    {
+        address: "",
+        companyName: "Waldek",
+        longDesc: "",
+        shortDesc: "",
+        mail: "abc",
+        phone: "",
+        salary: "",
+        url: "",
+        allowedFrom: 13,
+        allowedTo: 19,
+        createdAt: new Date().getDate().toString(),
+        updatedAt: new Date().getDate().toString(),
+        city: "Warszawa",
+        country: "Polska",
+        industry: "IT",
+        title: "Junior Frontend Developer",
+    },
+    {
+        address: "",
+        companyName: "Poldian",
+        longDesc: "",
+        shortDesc: "",
+        mail: "abc",
+        phone: "",
+        salary: "",
+        url: "",
+        allowedFrom: 13,
+        allowedTo: 19,
+        createdAt: new Date().getDate().toString(),
+        updatedAt: new Date().getDate().toString(),
+        city: "Gdańsk",
+        country: "Polska",
+        industry: "Gastronomia",
+        title: "Cukiernik",
+    },
+
+]

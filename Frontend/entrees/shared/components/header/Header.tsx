@@ -10,8 +10,8 @@ export type navbarItemProps = {
 export const Header = memo(() => {
     const navbarItems: navbarItemProps[] = [
         { link: "/", title: "Home" },
-        { link: "/login", title: "Login" },
-        { link: "/invoices", title: "Invoices" },
+        // { link: "/login", title: "Login" },
+        { link: "/offers", title: "Offers" },
     ];
 
     return (
