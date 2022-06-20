@@ -6,6 +6,26 @@
 
 @import "./styles/norm";
 
+:root {
+  //main colors
+  --main-theme-color: #fafafa;
+  --main-text-color: #041B29;
+
+  //aside colors
+  --aside-theme-color: #041B29;
+  --aside-text-color: #fafafa;
+}
+
+.dark {
+  //main colors
+  --main-theme-color: black;
+  --main-text-color: #fafafa;
+
+  //aside colors
+  --aside-theme-color: blue;
+  --aside-text-color: #fafafa;
+}
+
 html,
 body {
   padding: 0;

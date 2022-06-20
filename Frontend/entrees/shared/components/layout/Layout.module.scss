@@ -1,4 +1,19 @@
 .container {
   width: 100vw;
-  @apply p-4 m-0 bg-mainTheme;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 4fr 16fr;
+}
+
+.aside {
+  background-color: var(--aside-theme-color);
+  color: var(--aside-text-color);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-theme-color);
+  color: var(--main-text-color);
 }

@@ -15,4 +15,6 @@ export const Home = memo(() => {
   );
 });
 
+Home.displayName = "Home";
+
 export default Home;
