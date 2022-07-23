@@ -1,0 +1,28 @@
+$spacing: 8px;
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: $spacing;
+    border-radius: 4px;
+    margin-bottom: $spacing;
+}
+
+.header {
+  font-size: 1rem;
+  border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.header-cell {
+  text-align: left;
+  padding: $spacing;
+}
+
+.data-row {
+  border-bottom: 1px solid #eaeaea;
+  font-size: 0.9rem;
+}
+
+.data-cell {
+  padding: $spacing;
+}

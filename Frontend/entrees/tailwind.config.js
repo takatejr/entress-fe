@@ -9,6 +9,7 @@ module.exports = {
             colors: {
                 mainTheme: "#fafafa",
                 asideTheme: "#041B29",
+                greenPrimary: "#00D77E"
             },
         },
 

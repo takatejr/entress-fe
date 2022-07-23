@@ -2,10 +2,10 @@
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 4fr 16fr;
+  grid-template-columns: minmax(200px, 4fr) minmax(600px, 16fr);
 }
 
-.aside {
+.nav {
   background-color: var(--aside-theme-color);
   color: var(--aside-text-color);
 }

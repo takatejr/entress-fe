@@ -1,5 +1,5 @@
 import React, {memo, SetStateAction, useEffect, useState} from "react";
-import styles from "./Aside.module.scss";
+import styles from "./Nav.module.scss";
 import Link from "next/link";
 import clsx from "clsx";
 import {useRouter} from 'next/router'
@@ -43,7 +43,7 @@ const navigationTabs = [
     }
 ]
 
-export const Aside = memo<AsideProps>(() => {
+export const Nav = memo<AsideProps>(() => {
     const [activeTab, setActiveTab] = useState<SetStateAction<number>>(0);
     const router = useRouter();
 
@@ -64,7 +64,7 @@ export const Aside = memo<AsideProps>(() => {
     }
 
     return (
-        <aside className={styles.aside}>
+        <nav className={styles.aside}>
             <figure className="pt-10 pl-10">obrazek</figure>
             <ul className="pt-52">
                 {navigationTabs.map(({title, link, icon, children}, i) => (
@@ -87,10 +87,10 @@ export const Aside = memo<AsideProps>(() => {
                 ))
                 }
             </ul>
-        </aside>
+        </nav>
     );
 });
 
-Aside.displayName = "Aside";
+Nav.displayName = "Nav";
 
-export default Aside;
+export default Nav;
